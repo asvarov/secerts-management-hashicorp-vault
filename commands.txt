@@ -1,6 +1,7 @@
 vault status
 vault operator init
 vault operator unseal
+VAULT_ADDR='http://192.168.30.110:8200'
 vault login
 http://192.168.30.110:8200/ui/vault/secrets
 vault secrets enable kv
